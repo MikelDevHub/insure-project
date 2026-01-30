@@ -3,6 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden;
+}
 nav h3{
     color:black ;
     font-weight: bolder;
@@ -43,7 +47,7 @@ header p{
   /* margin: 0px 50px 10px 50px ; */
   line-height: 1.5;
   margin-bottom: 20px;
-  color:black;
+  color:white;
 }
 .button{
       background-color:transparent;
@@ -134,61 +138,23 @@ list-style: none;
 }
 /*media query */
 @media screen  and (max-width:850px){
-    nav ul{
-        display: none;
-    }
-    nav button{
-        color: black;
-    }
-    nav{
-        margin-bottom: 20px;
-    }
-    header button{
-        display: none;
-    }
-    header{
-        flex-direction: column-reverse;
-        padding: 0;
-        
-         
-    }
-    header img{
-        height:100%;
-        margin: 0;
-        padding: 0;
-    }
-    header .header-text h1{
-        width: 60%;
-        text-align: center;
-        padding: 0;
-    }
-    .header-text p{
-      padding: 0;
+  ul{
+    display: none;
+  }
 
-    }
-    .container{
-        flex-direction: column;
-    }
-    .text{
-        margin: 10px 0px;
-    }
-    .text p{
-        width: 100%;
-        margin-right: 0px;
-    }
-    main{
-        float: left;
-        padding: 0px 80px;
-        flex-direction: column;
-        margin-top: 0px;
-    }
-    main h2{
-        width:250%;
-        text-align: center;
-    }
-    main button{
-        width: 200%;
-        margin: 10px 0px;
-    }
+  header h1{
+    text-align: center;
+    width: 200%;
+  }
+  
+  header img{
+    width: 100px;
+    height: 100px;
+
+  }
+
+  header{
+    flex-direction: column-reverse;
+  }
 
 }
